@@ -1,0 +1,78 @@
+body{
+  /* border: 1px solid aqua; */
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+  /* border: 1px solid red; */
+  height: 100%;
+  text-align: center;
+}
+
+.container input {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container button {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(80, 74, 74, 0.932);
+  border-radius: 10px;
+  width: 100px;
+}
+
+.result {
+  border: 1px solid rgb(153, 110, 31);
+  background-color: rgb(233, 184, 121);
+  position: absolute;
+  box-shadow: 5px 5px 5px rgba(102, 69, 48, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.foodsList {
+  border: 1px solid pink;
+}
+
+ul {
+  /* border: 1px solid pink; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  width: 50%;
+  height: 200px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+li {
+  transform: translateX(-50%);
+}
